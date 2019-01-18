@@ -1,7 +1,7 @@
 import React from 'react';
 
- const Bands = props => {
-const bands = props.bands.map((band, index) => {
+const Bands = props => {
+  const bands = props.bands.map((band, index) => {
   
   return <li key={index}>{band.name}</li>;
   });
@@ -12,4 +12,4 @@ const bands = props.bands.map((band, index) => {
   );
  };
  
- export default Bands; 
+export default Bands; 
